@@ -1,0 +1,10 @@
+div {
+    color: #292929;
+    text-align: center;
+}
+
+div img {
+    border-style: solid;
+    width: 1000px;
+    height: 700px;
+}
