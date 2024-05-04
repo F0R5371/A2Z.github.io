@@ -1,1 +1,1 @@
-# SYNTMarketh.github.io
+# SYNTScheduling
