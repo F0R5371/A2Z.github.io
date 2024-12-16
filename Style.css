@@ -64,6 +64,24 @@ body {
     color: rgb(127, 79, 146);;
 }
 
+.Forms {
+    display: flex;
+    flex-wrap: nonwrap;
+}
+
+form {
+    margin-right: 20px;
+}
+
+.Forms input {
+    padding: 15px;
+}
+
+.FormTitle {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
 #CodeTitle {
     padding: 15px;
 
