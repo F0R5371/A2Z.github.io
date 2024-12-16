@@ -1,0 +1,133 @@
+@font-face {
+    font-family: font;
+    src: url("Outfit-VariableFont_wght.ttf")
+}
+
+* {
+    padding: 0;
+    margin: 0;
+
+    font-family: font;
+}
+
+body {
+    background-color: #17052b;
+}
+
+.Page {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 20px;
+}
+
+.Title {
+    font-size: 90px;
+    text-align: center;
+    
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    color: rgb(150, 184, 204);
+}
+
+.Solid {
+    border-top: 3px solid #abdeff;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.Section {
+    border-radius: 20px;
+    border-color: #abdeff;
+    border-style: outset;
+    border-width: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
+    
+    background-color: #291168;
+
+    color:rgb(150, 184, 204);;
+}
+
+.CodeSegment {
+    border-radius: 20px;
+    border-left: 15px solid #e6d3ff;
+    padding: 20px;
+    margin: 20px;
+    background-color: #a08db8;
+
+    font-size: 22px;
+    word-wrap: break-word;
+    color: rgb(127, 79, 146);;
+}
+
+#CodeTitle {
+    padding: 15px;
+
+    font-size: 50px;
+
+    text-align: center;
+}
+
+#CodeTitle2{
+    margin: 20px;
+    padding: 5px;
+
+    font-size: 30px;
+}
+
+#CodeDesc {
+    margin: 20px;
+    padding: 5px;
+
+    font-size: 30px;
+
+    line-height: 1.7;
+    text-indent: 3em;
+}
+
+#GridImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.Green {
+    color:green;
+}
+
+.CodeGreen {
+    color: #426931;
+}
+
+.CodeGreen2{
+    color: #9ebe91;
+}
+
+.CodePurple {
+    color: #71488a;
+}
+
+.CodeYellow {
+    color: #abad2c
+}
+
+.indent {
+    text-indent: 50px;
+}
+
+.indent2 {
+    text-indent: 100px;
+}
+
+.indent3 {
+    text-indent: 150px;
+}
+
+.indent4 {
+    text-indent: 200px;
+}
