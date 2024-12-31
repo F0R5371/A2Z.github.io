@@ -42,7 +42,6 @@ body {
     border-style: outset;
     border-width: 5px;
     margin-top: 50px;
-    margin-bottom: 50px;
     margin-left: 10%;
     margin-right: 10%;
     padding: 10px;
@@ -86,7 +85,6 @@ body {
     font-size: 30px;
 
     line-height: 1.7;
-    text-indent: 3em;
 }
 
 #GridImg {
@@ -189,6 +187,7 @@ body {
     margin-right: 20px;
     background-color: #291168;
     border-style: solid;
+    border-width: 5px;
     border-color: rgb(150, 184, 204);
 }
 
