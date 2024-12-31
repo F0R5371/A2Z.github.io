@@ -1,6 +1,6 @@
 @font-face {
     font-family: font;
-    src: url("Outfit-VariableFont_wght.ttf")
+    src: url("SpaceGrotesk-VariableFont_wght.ttf")
 }
 
 * {
@@ -64,24 +64,6 @@ body {
     color: rgb(127, 79, 146);;
 }
 
-.Forms {
-    display: flex;
-    flex-wrap: nonwrap;
-}
-
-form {
-    margin-right: 20px;
-}
-
-.Forms input {
-    padding: 15px;
-}
-
-.FormTitle {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
 #CodeTitle {
     padding: 15px;
 
@@ -112,6 +94,58 @@ form {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+}
+
+/* First section with register forms */
+.FormContainer {
+    border-radius: 20px;
+    border-left: 15px solid #e6d3ff;
+    padding: 20px;
+    margin: 20px;
+    background-color: #a08db8;
+
+    font-size: 22px;
+    word-wrap: break-word;
+    color: rgb(127, 79, 146);
+}
+
+.FormContainer > #FormTitle {
+    text-align: center;
+    align-items: stretch;
+}
+
+.Forms {
+    display: flex;
+    flex-direction: column;
+}
+
+.Forms input {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 55px;
+    width: 100%;
+
+    font-size: 36px;
+    
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #291168;
+    background-color: #e9e0f5;
+}
+
+.FormContainer #submit {
+    margin-top: 10px;
+    height: 35px;
+    width: 80px;
+
+    font-size: 19px;
+
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #291168;
+    background-color: #e9e0f5;
 }
 
 .Green {
@@ -148,4 +182,34 @@ form {
 
 .indent4 {
     text-indent: 200px;
+}
+
+.Navbar {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #291168;
+    border-style: solid;
+    border-color: rgb(150, 184, 204);
+}
+
+.Navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.Navbar li {
+    display: inline;
+    padding:5px;
+}
+
+.Navbar li a {
+    color:rgb(150, 184, 204);
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.Navbar li a:hover {
+    color:rgb(111, 181, 190);
 }
