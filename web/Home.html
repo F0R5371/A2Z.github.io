@@ -45,23 +45,19 @@
                     <p id = CodeSegmentText>
 
                         <div class = "Left">
-                            <ul>
-                                <li>
-
-                                    <div class = "Preview">
-                                        <ul>
-                                            <li><img src = "WebResources/Introduction.svg" width = 50%></li>
-                                            <li><input id = "submit" type = "submit" value = "Go to art page"></li>
-                                        </ul>
-                                        
-                                    </div>
-
-                                </li>
-                                <li>
-                                    <p>Something Something</p>
-                                </li>
-                            </ul>
-                                 
+                            <div class = "Column">
+                                <div class = "Preview">
+                                    <ul>
+                                        <li><img src = "WebResources/Introduction.svg" width = 100%></li>
+                                        <li><input id = "submit" type = "submit" value = "Go to art page"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class = "Column">
+                                <p id = "ColumnText">
+                                    For any information or updates on recent games, new art posted, or developer news, refer to our updates and blog page!
+                                </p>
+                            </div>
                         </div>
                     </p>
                 </div>
@@ -77,19 +73,31 @@
                     <p id = CodeSegmentText>
                         <!-- Represents how a section will be layed out-->
                         <div class = "Middle">
-                            <!-- An image with some text and a button at the bottom -->
-                            <div class = "Preview">
-                                <img src = "WebResources/Introduction.svg">
-                                <input id = "submit" type = "submit" value = "Go to art page">
+                            <div class = "Column">
+                                <p id = "ColumnText">
+                                    For any information or updates on recent games, new art posted, or developer news, refer to our updates and blog page!
+                                </p>
                             </div>
-                            <p>Something Something</p>
+                            <div class = "Column">
+                                <div class = "Preview">
+                                    <ul>
+                                        <li><img src = "WebResources/Introduction.svg" width = 100%></li>
+                                        <li><input id = "submit" type = "submit" value = "Go to art page"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class = "Column">
+                                <p id = "ColumnText">
+                                    For any information or updates on recent games, new art posted, or developer news, refer to our updates and blog page!
+                                </p>
+                            </div>
                         </div>
                     </p>
                 </div>
 
             </div>
 
-            <div class = "Section">
+            <div class = "Section" style = "margin-bottom: 30px">
                 
                 <h1 id = "CodeTitle">More Info</h1>
                 <p id = "CodeDesc"></p>
@@ -97,12 +105,58 @@
                 <div class = "CodeSegment">
                     <p id = CodeSegmentText>
                         <div class = "Right">
-                            <input id = "submit" type = "submit" value = "Go to about page">
+                            <div class = "Column">
+                                <p id = "ColumnText">
+                                    For any information or updates on recent games, new art posted, or developer news, refer to our updates and blog page!
+                                </p>
+                            </div>
+                            <div class = "Column">
+                                <div class = "Preview">
+                                    <ul>
+                                        <li><img src = "WebResources/Introduction.svg" width = 100%></li>
+                                        <li><input id = "submit" type = "submit" value = "Go to art page"></li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </p>
                 </div>
 
             </div>
+
+            <!-- Footer -->
+            <hr class = "Solid">
+            
+            <div class = "Footer">
+                <div class = "Column">
+                    <p id = "FooterText">Footer things like links to all the most important parts of your page, and social media links as well as copyright claims and
+                        other legal things </p>
+                </div>
+                <div class = "Column">
+                    <!-- Email form -->
+                    <div class = "FormContainer">
+
+                        <p id = "FormTitle"><b>Fill out form to sign up for updates</b></p>
+                        <div class = "Forms">
+
+                            <form action = "WebFunction2.php">
+                                <label for = "name">Name:<br></label>
+                                <input type = "text" id = "name" name = "name"><br>
+                            </form>
+                            <form action = "WebFunction2.php">
+                                <label for = "email">Email:<br></label>
+                                <input type = "text" id = "email" name = "email"><br>
+                            </form>
+                            
+
+                        </div>
+                        <input id = "submit" type = "submit" value = "Submit">
+                    
+                    </div>
+                </div>
+            </div>
+
+            <hr class = "Solid">
 
         </div>
     </body>

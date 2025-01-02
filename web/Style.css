@@ -253,10 +253,59 @@ body {
     border-style: solid;
 }
 
-.CodeSegment .Left {
-    
+.Left {
+    display: flex;
 }
 
-.CodeSegment .Middle {
+.Left .Column {
+    flex: 50%;
+    padding: 20px;
+}
 
+.Left .Column #ColumnText {
+    font-size: 50px;
+}
+
+.Right {
+    display: flex;
+}
+
+.Right .Column {
+    flex: 50%;
+    padding: 20px;
+}
+
+.Right .Column #ColumnText {
+    font-size: 50px;
+}
+
+.Middle {
+    display: flex;
+}
+
+.Middle .Column {
+    flex: 33.33%;
+    padding: 20px;
+}
+
+.Middle .Column #ColumnText {
+    font-size: 50px;
+}
+
+.Footer {
+    background-color: #291168;
+
+    display: flex;
+}
+
+.Footer .Column {
+    margin: 0px;
+    padding: 20px;
+
+    flex: 50%;
+}
+
+.Footer #FooterText {
+    color:rgb(150, 184, 204);
+    font-size: 36px;
 }
